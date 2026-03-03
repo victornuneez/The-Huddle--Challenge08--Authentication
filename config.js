@@ -1,5 +1,3 @@
-export const {
-    PORT = 3000,
-    SALT_ROUNDS = 10,
-    SECRET_JWT_KEY = 'clave-secreta'
-} = process.env
+PORT=3000
+SECRET_JWT_KEY=tu_clave_secreta_aqui
+NODE_ENV=development

@@ -1,10 +1,10 @@
 import express from 'express';
 import session from 'express-session';
-import authRoutes from './routes/authRoutes.js';
+import authRoutes from '../routes/authRoutes.js';
 import { PORT } from './config.js';
 import cookieParser from 'cookie-parser';
 import { SECRET_JWT_KEY } from './config.js';
-import adminRoutes from './routes/admin-routes.js'
+import adminRoutes from '../routes/admin-routes.js'
 import helmet from 'helmet';
 import sessionFileStore from 'session-file-store';
 
